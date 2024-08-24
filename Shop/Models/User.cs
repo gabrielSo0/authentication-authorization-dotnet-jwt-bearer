@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Shop.Models
 {
     public class User
@@ -5,6 +7,6 @@ namespace Shop.Models
         public int Id { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
-        public string Role { get; set; }
+        public string? Role { get; set; }
     }
 }
